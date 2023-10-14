@@ -55,8 +55,8 @@ Preliminaries:
 5 | Filter out 0 `positiveMonthlySoloNetIncomeWithSavings` | Yes; No
 6 | Filter out 0 `positiveMonthlyFamilyNetIncomeWithSavings` | Yes; No
 7 | Filter out 0 `positive monthlyFamilyIncome - basicMonthlySalary` | Yes; No
-8 | Filter out 0 `positive basicMonthlySalary - totalMonthlyExpenses` | Yes; No
-9 | Filter out 0 `positive monthlyFamilyIncome - totalMonthlyExpenses` | Yes; No
+8 | Filter out 0 `positive basicMonthlySalary - monthlyExpenses` | Yes; No
+9 | Filter out 0 `positive monthlyFamilyIncome - monthlyExpenses` | Yes; No
 10 | Include `monthlyExpenses / basicMonthlySalary` | Yes; No
 11 | Include `monthlyVices / basicMonthlySalary` | Yes; No
 12 | Include `basicMonthlySalary / workingFamilyCount` | Yes; No
