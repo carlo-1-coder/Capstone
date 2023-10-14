@@ -14,10 +14,16 @@
 Preliminaries:
 1. Create the following features:
     - `monthlyUtilityBills`
-    - `monthlyExpenses`
     - `monthlyVices`
-    - `monthlyNetIncome`
-    - `positiveMonthlyNetIncome`
+    - `monthlyExpenses`
+    - `monthlySoloNetIncome`
+    - `positiveMonthlySoloNetIncome`
+    - `monthlyFamilyNetIncome`
+    - `positiveMonthlyFamilyNetIncome`
+    - `monthlySoloNetIncomeWithSavings`
+    - `positiveMonthlySoloNetIncomeWithSavings`
+    - `monthlyFamilyNetIncomeWithSavings`
+    - `positiveMonthlyFamilyNetIncomeWithSavings`
     - `monthlyFamilyIncome - basicMonthlySalary`
     - `positive monthlyFamilyIncome - basicMonthlySalary`
     - `basicMonthlySalary - totalMonthlyExpenses`
@@ -43,7 +49,10 @@ Preprocessing Steps | Choices |
 |---|---|
 `basicMonthlySalary` < 100  is multiplied by 1,000 | Yes; No
 Remove those with the same values over many features | Yes; No
-Filter out 0 `positiveMonthlyNetIncome` | Yes; No
+Filter out 0 `positiveMonthlySoloNetIncome` | Yes; No
+Filter out 0 `positiveMonthlyFamilyNetIncome` | Yes; No
+Filter out 0 `positiveMonthlySoloNetIncomeWithSavings` | Yes; No
+Filter out 0 `positiveMonthlyFamilyNetIncomeWithSavings` | Yes; No
 Filter out 0 `positive monthlyFamilyIncome - basicMonthlySalary` | Yes; No
 Filter out 0 `positive basicMonthlySalary - totalMonthlyExpenses` | Yes; No
 Filter out 0 `positive monthlyFamilyIncome - totalMonthlyExpenses` | Yes; No
