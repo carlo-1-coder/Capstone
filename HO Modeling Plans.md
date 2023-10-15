@@ -50,13 +50,13 @@ Preliminaries:
 |---|---|---|
 1 | `basicMonthlySalary` < 100  is multiplied by 1,000 | Yes; No
 2 | Remove those with the same values over many features | Yes; No
-3 | Filter out 0 `positiveMonthlySoloNetIncome` | Yes; No
-4 | Filter out 0 `positiveMonthlyFamilyNetIncome` | Yes; No
-5 | Filter out 0 `positiveMonthlySoloNetIncomeWithSavings` | Yes; No
-6 | Filter out 0 `positiveMonthlyFamilyNetIncomeWithSavings` | Yes; No
-7 | Filter out 0 `positive monthlyFamilyIncome - basicMonthlySalary` | Yes; No
-8 | Filter out 0 `positive basicMonthlySalary - monthlyExpenses` | Yes; No
-9 | Filter out 0 `positive monthlyFamilyIncome - monthlyExpenses` | Yes; No
+3 | Remove `positiveMonthlySoloNetIncome` == 0 | Yes; No
+4 | Remove `positiveMonthlyFamilyNetIncome` == 0 | Yes; No
+5 | Remove `positiveMonthlySoloNetIncomeWithSavings` == 0 | Yes; No
+6 | Remove `positiveMonthlyFamilyNetIncomeWithSavings` == 0 | Yes; No
+7 | Remove `positive monthlyFamilyIncome - basicMonthlySalary` == 0 | Yes; No
+8 | Remove `positive basicMonthlySalary - monthlyExpenses` == 0 (same as 3) | Yes; No
+9 | Remove `positive monthlyFamilyIncome - monthlyExpenses` == 0 (same as 4) | Yes; No
 10 | Include `monthlyExpenses / basicMonthlySalary` | Yes; No
 11 | Include `monthlyVices / basicMonthlySalary` | Yes; No
 12 | Include `basicMonthlySalary / workingFamilyCount` | Yes; No
