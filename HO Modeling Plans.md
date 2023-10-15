@@ -69,12 +69,12 @@ Preliminaries:
 19 | Include `monthlyUtilityBills / residentsCount` | Yes; No
 20 | Bin `basicMonthlySalary` | Yes; No
 21 | Bin `monthlyFamilyIncome` | Yes; No
-22 | Bin `positiveMonthlySoloNetIncome` | Yes; No
-23 | Bin `positiveMonthlyFamilyNetIncome` | Yes; No
-24 | Bin `positiveMonthlySoloNetIncomeWithSavings` | Yes; No
-25 | Bin `positiveMonthlyFamilyNetIncomeWithSavings` | Yes; No
-26 | Bin `totalMonthlyExpenses` | Yes; No
-27 | Bin `totalMonthlyVices` | Yes; No
+22 | Bin `monthlySoloNetIncome` | Yes; No
+23 | Bin `monthlyFamilyNetIncome` | Yes; No
+24 | Bin `monthlySoloNetIncomeWithSavings` | Yes; No
+25 | Bin `monthlyFamilyNetIncomeWithSavings` | Yes; No
+26 | Bin `monthlyExpenses` | Yes; No
+27 | Bin `monthlyVices` | Yes; No
 28 | Bin `totalNetWorth` | Yes; No
 29 | Outlier removal (Need to generate different set of outliers for different combos of above steps)| Yes; No
 30 | OHE of categorical variables | Yes; No
