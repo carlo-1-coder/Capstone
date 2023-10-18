@@ -75,7 +75,7 @@ Preliminaries:
 25 | Bin `monthlyFamilyNetIncomeWithSavings` | Yes; No
 26 | Bin `monthlyExpenses` | Yes; No
 27 | Bin `monthlyVices` | Yes; No
-28 | Bin `totalNetWorth` | Yes; No
+28 | Bin `totalNetWorth` (non-existing) | Yes; No
 29 | Outlier removal (Need to generate different set of outliers for different combos of above steps)| Yes; No
 30 | OHE of categorical variables | Yes; No
 31 | Variance Thresholding| None; Threshold == 0.05; Threshold == 0.10; Threshold == 0.15
